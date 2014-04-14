@@ -9,7 +9,7 @@ A simple command line app written in Ruby to help visualize the [Graham Scan alg
 
 I wrote this last year. I had been meaning to teach myself Ruby, and this was my very first project with the language. This will be immediately obvious if you read the code (do yourself a favor: don't). The value here for others is in running the app and using the visualization to help "see" how the algorithm works - not in the implementation of the algorithm itself.    
 
-For detailed information about the algorithm and its geometric underpinnings, chapter 33 of [CLRS](http://mitpress.mit.edu/books/introduction-algorithms) provides a thorough treatment.
+For detailed information about Graham's scan and its geometric underpinnings, chapter 33 of [CLRS](http://mitpress.mit.edu/books/introduction-algorithms) provides a thorough treatment.
 
 ###Usage
 
