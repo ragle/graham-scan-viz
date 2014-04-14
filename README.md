@@ -28,8 +28,8 @@ OPTIONS
     --width -w <i>            - width (default: 1600)                                                                                                                                                               
     --height -h <i>           - height (default: 900)                                                                                                                                                               
     --num-points -n <i>       - num_points (default: 60)                                                                                                                                                            
-    --verbosity \<s\>           - Verbosity level of output for current execution (e.g. INFO, DEBUG) (default: WARN)                                                                                                  
-    --error-output-format \<s\> - The format to use when outputting errors (e.g. basic, advanced) (default: basic)                                                                                                    
+    --verbosity <s>           - Verbosity level of output for current execution (e.g. INFO, DEBUG) (default: WARN)                                                                                                  
+    --error-output-format <s> - The format to use when outputting errors (e.g. basic, advanced) (default: basic)                                                                                                    
     --version -v              - Print version and exit                                                                                                                                                              
     --help -e                 - Show this message
 ```
