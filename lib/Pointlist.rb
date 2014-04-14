@@ -28,40 +28,6 @@ class Pointlist
 
 
 
-    #super niave brute force implementation, running low on time :) 
-    def addTrianglePoints(num_points)
-
-        @points.clear        
-        
-        pps = num_points / 3
-
-        pps.times do |i|
-            @points << Point.new(0, i)
-            @points << Point.new(i, pps)
-            @points << Point.new(pps -i, pps -i)
-        end
-
-    end
-
-
-
-    def addSquarePoints(num_points)
-
-        @points.clear
-
-        pps = num_points / 4
-
-        pps.times do |i|
-            @points << Point.new(0, i)
-            @points << Point.new(i,pps)
-            @points << Point.new(pps, pps -i)
-            @points << Point.new(pps -i, 0)
-        end
-
-    end
-
-
-
     def crossProduct(first, a, b)
         
         cp = ((a.x - first.x) * (b.y - first.y)) - ((b.x - first.x) * (a.y - first.y))
