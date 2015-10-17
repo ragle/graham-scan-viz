@@ -49,7 +49,6 @@ $ gem install escort ap
 
 [Install Ruby/TK](http://www.tkdocs.com/tutorial/install.html). I'm sorry.
 
-
 ###To do
 
 *  Write GAL to remove tcl/TK as a strict dependency, allow for something like shoes or any other library / gem that is easy to install
